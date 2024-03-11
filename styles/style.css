@@ -24,3 +24,44 @@
 }
 
 /* good luck */
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-thin;
+  src: url(../assets/fonts/Poppins-Thin.ttf);
+}
+body{
+  background: var(--bg-gradiant);
+}
+#header{
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+  color: #fff;
+}
+#header > .menu{
+  font-family: poppins;
+  display: flex;
+  height: 33%;
+  width: 50%;
+  margin-right: 40px;
+}
+
+#header > .menu > div{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+#header > .menu > div:last-child{
+  background: var(--secondary);
+  border-radius: 5px;
+}
+#header > .menu > .selected{
+  border-bottom: 0.5px solid var(--secondary);
+}

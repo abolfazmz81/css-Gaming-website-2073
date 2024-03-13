@@ -40,7 +40,7 @@ body{
   display: flex;
   justify-content: end;
   align-items: center;
-  
+  position: relative;
   color: #fff;
 }
 #header > .menu{
@@ -64,4 +64,10 @@ body{
 }
 #header > .menu > .selected{
   border-bottom: 0.5px solid var(--secondary);
+}
+
+#header > img{
+  position: absolute;
+  left: 40px;
+  font-family: poppins;
 }

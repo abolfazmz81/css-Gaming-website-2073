@@ -32,9 +32,18 @@
   font-family: poppins-thin;
   src: url(../assets/fonts/Poppins-Thin.ttf);
 }
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
 body{
   background: var(--bg-gradiant);
+  overflow: hidden;
 }
+
+/*header*/
 #header{
   height: 100px;
   display: flex;
@@ -68,6 +77,37 @@ body{
 
 #header > img{
   position: absolute;
-  left: 40px;
-  font-family: poppins;
+  left: 80px;
+  font-family: poppins-bold;
+}
+
+/* content*/
+#content > .holder{
+
+  margin: 0 auto;
+  width: 1170px;
+  height: 3000px;
+  position: relative;
+}
+
+#content > .holder > .head{
+  position: absolute;
+  color: #fff;
+  width: 410px;
+  height: 397px;
+  border: 1px solid var(--secondary);
+  top: 80px;
+}
+
+#content > .holder > .head > p:first-child {
+  font-family: poppins-bold;
+  color: var(--secondary);
+}
+
+#content > .holder > .joystick{
+  display: inline-block;
+  width: 540px;
+  height: 510px;
+  position: relative;
+  left: 772px;
 }

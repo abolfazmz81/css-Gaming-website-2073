@@ -160,3 +160,9 @@ body{
   left: 700px;
   top: -90px;
 }
+
+
+#content > .holder > .trends{
+  border: 1px solid #ccc;
+  
+}

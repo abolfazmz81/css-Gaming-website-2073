@@ -93,7 +93,6 @@ body ul{
 
   margin: 0 auto;
   width: 1170px;
-  height: 3000px;
   position: relative;
 }
 
@@ -303,6 +302,7 @@ body ul{
 #content > .holder > .recent > .recent-text > h2 {
   font-size: 30px;
   margin-bottom: 20px;
+  font-family: poppins-bold;
 }
 
 #content > .holder > .recent > .recent-text > p {
@@ -311,6 +311,7 @@ body ul{
   width: 40%;
   margin: auto;
   font-size: 14px;
+  font-family: poppins;
 }
 
 #content > .holder > .recent > .recent-images {
@@ -342,4 +343,21 @@ body ul{
   color: #fff;
   cursor: pointer;
   font-size: 20px;
+}
+
+#content > .holder > .mtext {
+  margin-top: 100px;
+  color: #fff;
+}
+
+#content > .holder > .mtext > h2 {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-family: poppins-Bold;
+}
+
+#content > .holder > .mtext > p {
+  font-size: 14px;
+  width: 40%;
+  font-family: poppins;
 }

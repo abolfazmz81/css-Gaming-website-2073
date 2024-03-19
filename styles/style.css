@@ -520,3 +520,84 @@ body ul{
   padding: 30px 0;
   font-size: 13px;
 }
+
+/* games exclusive*/
+
+#content > .holder > .head-games {
+  position: absolute;
+  color: #fff;
+  width: 410px;
+  height: 397px;
+  top: 80px;
+}
+
+#content > .holder > .head-games > p:first-child {
+  font-family: poppins;
+  color: var(--secondary);
+}
+
+#content > .holder > .head-games > h1 {
+  font-family: poppins;
+  width: 100%;
+  margin: 30px 0;
+  font-size: 35px;
+}
+
+#content > .holder > .head-games > .p2 {
+  font-family: poppins;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+#content > .holder > .head-games > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: poppins;
+  background-color: var(--secondary);
+  border-radius: 40px;
+  line-height: 50px;
+}
+
+#content > .holder > .trends > .bottom-games {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 150px;
+  font-family: poppins;
+}
+
+#content > .holder > .trends > .bottom-games > .games-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--brown);
+  color: #fff;
+  padding: 60px 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+#content > .holder > .trends > .bottom-games > .games-cards > .games-cards-title {
+  padding: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.purple {
+  background-color: #b000dc1c;
+}
+
+.red {
+  background-color: #dc42001c;
+}
+
+.green {
+  background-color: #00dc8d1c;
+}
+

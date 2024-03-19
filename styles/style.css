@@ -434,6 +434,7 @@ body ul{
   flex-direction: column;
   background-color: var(--black);
   color: #fff;
+  font-family: poppins;
 }
 
 #footer > .footer-container {
@@ -458,11 +459,29 @@ body ul{
   flex: 2;
 }
 
+#footer > .footer-container > .footer-about > span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#footer > .footer-container > .footer-about > ul {
+  background-color: inherit;
+  font-size: 16px;
+}
+
 #footer > .footer-container > .footer-contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 2.3;
+}
+
+#footer > .footer-container > .footer-contact > p {
+  font-size: 16px;
+}
+
+#footer > .footer-container > .footer-contact > span {
+  font-size: 16px;
 }
 
 #footer > .footer-container > .footer-socials {

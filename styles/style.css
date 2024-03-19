@@ -601,3 +601,47 @@ body ul{
   background-color: #00dc8d1c;
 }
 
+#content > .games-project {
+  display: flex;
+  gap: 80px;
+  background-color: var(--brown);
+  padding: 100px 100px 0 100px;
+  color: #fff;
+  margin-top: 300px;
+}
+
+#content > .games-project > .project-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#content > .games-project > .project-text > h5 {
+  font-weight: 200;
+}
+
+#content > .games-project > .project-text > span {
+  font-size: 28px;
+  font-weight: 600;
+  width: 70%;
+}
+
+#content > .games-project > .project-text > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.4px;
+  width: 75%;
+}
+
+#content > .games-project > .project-img {
+  display: flex;
+}
+
+#content > .games-project > .project-img > img {
+  align-self: flex-end;
+  object-fit: cover;
+  width: 496px;
+  height: 490px;
+  border-radius: 24px 24px 0 0;
+}

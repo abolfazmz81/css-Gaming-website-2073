@@ -372,6 +372,7 @@ body ul{
   border-radius: 15px;
   gap: 150px;
   margin-bottom: 150px;
+  font-family: poppins;
 }
 
 #content > .holder > .subscribe > .sub-text {
@@ -442,7 +443,37 @@ body ul{
   border-bottom: 0.8px solid #fff;
 }
 
+#footer > .footer-container > .footer-info {
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 3;
+}
+
+#footer > .footer-container > .footer-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2;
+}
+
+#footer > .footer-container > .footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2.3;
+}
+
+#footer > .footer-container > .footer-socials {
+  display: flex;
+  flex: 2;
+  justify-self: flex-end;
+  direction: rtl;
+}
+
 .copyright {
+  font-family: poppins;
   display: flex;
   justify-content: center;
   align-items: center;

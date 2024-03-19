@@ -49,19 +49,22 @@ body ul{
 }
 /*header*/
 #header{
+  direction: rtl;
   height: 100px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   color: #fff;
 }
+
 #header > .menu{
   font-family: poppins;
   display: flex;
   height: 33%;
   width: 50%;
   margin-right: 40px;
+  direction: ltr;
 }
 
 #header > .menu > div{
@@ -79,10 +82,11 @@ body ul{
   border-bottom: 0.5px solid var(--secondary);
 }
 
-#header > img{
-  position: absolute;
-  left: 80px;
-  font-family: poppins-bold;
+#header > h2 {
+  font-size: 29px;
+  font-weight: 800;
+  margin-left: 40px;
+  font-family: poppins;
 }
 
 /* content*/

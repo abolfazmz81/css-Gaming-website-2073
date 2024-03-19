@@ -491,7 +491,24 @@ body ul{
   direction: rtl;
 }
 
-.copyright {
+
+#footer > .footer-container > .footer-socials > div {
+  align-self: flex-end;
+  display: flex;
+  gap: 15px;
+}
+
+#footer > .footer-container > .footer-socials > div > .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#footer > .copyright {
   font-family: poppins;
   display: flex;
   justify-content: center;
